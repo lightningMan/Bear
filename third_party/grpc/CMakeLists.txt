@@ -27,7 +27,7 @@ else ()
     include(ExternalProject)
     ExternalProject_Add(grpc_dependency
             GIT_REPOSITORY
-                https://github.com/grpc/grpc
+                git://github.com/grpc/grpc
             GIT_TAG
                 v1.36.4
             GIT_SUBMODULES
